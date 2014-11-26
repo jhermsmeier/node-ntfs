@@ -1,0 +1,14 @@
+{
+  "name": "ntfs",
+  "version": "0.0.0",
+  "description": "NTFS",
+  "main": "lib/ntfs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ntfs"
+  ],
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://github.com/jhermsmeier)",
+  "license": "MIT"
+}

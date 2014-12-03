@@ -20,6 +20,7 @@ $ npm install ntfs
 ##### Update Sequence Number (USN)
 ##### Index Node (inode)
 ##### Logfile Sequence Number (LSN)
+##### Logical Cluster Number (LCN)
 ##### Virtual Cluster Number (VCN)
 ##### Relative Identifier (RID)
 ##### Security Identifier (SID)

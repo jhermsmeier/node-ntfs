@@ -13,6 +13,19 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
+    "bloodline": "^1.0.0",
     "int64-native": "^0.3.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/node-ntfs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-ntfs/issues"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-ntfs"
 }

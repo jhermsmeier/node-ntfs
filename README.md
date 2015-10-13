@@ -1,9 +1,9 @@
 # NTFS
-[![npm](http://img.shields.io/npm/v/ntfs.svg?style=flat)](https://npmjs.org/ntfs)
-[![npm downloads](http://img.shields.io/npm/dm/ntfs.svg?style=flat)](https://npmjs.org/ntfs)
-[![build status](http://img.shields.io/travis/jhermsmeier/node-ntfs.svg?style=flat)](https://travis-ci.org/jhermsmeier/node-ntfs)
+[![npm](http://img.shields.io/npm/v/ntfs.svg?style=flat-square)](https://npmjs.com/ntfs)
+[![npm downloads](http://img.shields.io/npm/dm/ntfs.svg?style=flat-square)](https://npmjs.com/ntfs)
+[![build status](http://img.shields.io/travis/jhermsmeier/node-ntfs.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-ntfs)
 
-## Install via [npm](https://npmjs.org)
+## Install via [npm](https://npmjs.com)
 
 ```sh
 $ npm install ntfs
@@ -11,30 +11,32 @@ $ npm install ntfs
 
 ## Terminology
 
-A list of terms and their abbrevations appearing in the NTFS driver code.
+### Acronyms
 
-- Volume Boot Record (VBR)
-- BIOS Parameter Block (BPB)
-- Master File Table (MFT)
-- MFT Record Number (MREF)
-- MFT Record Sequence Number (MFTSEQNO)
-- Update Sequence Array (USA)
-- Update Sequence Number (USN)
-- Index Node (inode)
-- Logfile Sequence Number (LSN)
-- Logical Cluster Number (LCN)
-- Virtual Cluster Number (VCN)
-- Relative Identifier (RID)
-- Security Identifier (SID)
-- Access Control List (ACL)
-- Access Control Entry (ACE)
-- System ACL (SACL)
-- Discretionary ACL (DACL)
-- Extended Attribute (EA)
-- Secure Data Header (SDH) (???)
-- SID Index (SII) (???)
-- Secure (Named) Data Stream (SDS) (???)
-- Native Structure Storage (NSS)
-- Encrypting File System (EFS)
-- Decryption Field (DF)
-- Data Decryption Field (DDF)
+|          |                                  |
+|----------|----------------------------------|
+| VBR      | Volume Boot Record |
+| BPB      | BIOS Parameter Block |
+| MFT      | Master File Table |
+| MREF     | MFT Record Number |
+| MFTSEQNO | MFT Record Sequence Number |
+| USA      | Update Sequence Array |
+| USN      | Update Sequence Number |
+| inode    | Index Node |
+| LSN      | Logfile Sequence Number |
+| LCN      | Logical Cluster Number |
+| VCN      | Virtual Cluster Number |
+| RID      | Relative Identifier |
+| SID      | Security Identifier |
+| ACL      | Access Control List |
+| ACE      | Access Control Entry |
+| SACL     | System ACL |
+| DACL     | Discretionary ACL |
+| EA       | Extended Attribute |
+| SDH      | Secure Data Header (???) |
+| SII      | SID Index (???) |
+| SDS      | Secure (Named) Data Stream (???) |
+| NSS      | Native Structure Storage |
+| EFS      | Encrypting File System |
+| DF       | Decryption Field |
+| DDF      | Data Decryption Field |

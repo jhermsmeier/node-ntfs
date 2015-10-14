@@ -2,30 +2,32 @@
   "name": "ntfs",
   "version": "0.1.0",
   "description": "NTFS",
+  "license": "MIT",
+  "keywords": [
+    "ntfs",
+    "file",
+    "system",
+    "fs",
+    "volume",
+    "mount"
+  ],
   "main": "lib/ntfs",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {
+    "async": "~1.4.2",
+    "bloodline": "~1.0.0",
+    "int64-native": "~0.4.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "ntfs"
-  ],
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://github.com/jhermsmeier)",
-  "license": "MIT",
-  "dependencies": {
-    "async": "^0.9.0",
-    "bloodline": "^1.0.0",
-    "int64-native": "^0.3.2"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/node-ntfs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhermsmeier/node-ntfs.git"
+    "url": "git+https://github.com/jhermsmeier/node-ntfs.git"
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-ntfs/issues"
-  },
-  "homepage": "https://github.com/jhermsmeier/node-ntfs"
+  }
 }

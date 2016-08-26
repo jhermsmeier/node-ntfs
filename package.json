@@ -20,7 +20,11 @@
     "bloodline": "~1.0.0",
     "int64-native": "~0.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "disk": "~0.5.0",
+    "mocha": "~3.0.2",
+    "vhd": "~0.2.0"
+  },
   "homepage": "https://github.com/jhermsmeier/node-ntfs",
   "repository": {
     "type": "git",
@@ -30,7 +34,8 @@
     "url": "https://github.com/jhermsmeier/node-ntfs/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run test",
+    "test": "mocha test/unit/*.js"
   },
   "directories": {
     "doc": "docs",

@@ -1,27 +1,26 @@
 {
   "name": "ntfs",
   "version": "0.2.0",
-  "description": "NTFS",
+  "description": "NTFS file system driver",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
   "keywords": [
     "ntfs",
+    "filesystem",
     "file",
     "system",
     "fs",
     "volume",
-    "mount"
+    "mount",
+    "disk"
   ],
-  "main": "lib/ntfs",
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "main": "lib/ntfs.js",
   "dependencies": {
     "async": "~2.0.0-rc.2",
     "bloodline": "~1.0.0",
     "int64-native": "~0.4.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "homepage": "https://github.com/jhermsmeier/node-ntfs",
   "repository": {
     "type": "git",
@@ -29,5 +28,13 @@
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-ntfs/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
   }
 }

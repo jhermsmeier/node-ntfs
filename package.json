@@ -26,13 +26,5 @@
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-ntfs/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "directories": {
-    "doc": "docs",
-    "example": "examples",
-    "test": "test"
   }
 }

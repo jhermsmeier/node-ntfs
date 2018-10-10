@@ -16,8 +16,7 @@
   ],
   "main": "lib/ntfs.js",
   "dependencies": {
-    "async": "^2.6.1",
-    "bloodline": "~1.0.0"
+    "async": "^2.6.1"
   },
   "devDependencies": {},
   "homepage": "https://github.com/jhermsmeier/node-ntfs",
